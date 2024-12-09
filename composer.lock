@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b1df218fbb9918ebd753c8e1785b043",
+    "content-hash": "2b48179537e10631103c79ef5f72e2f4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -64,26 +64,23 @@
         },
         {
             "name": "barryvdh/laravel-snappy",
-            "version": "v1.0.0",
+            "version": "v0.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-snappy.git",
-                "reference": "2c18a3602981bc6f25b32908cf8aaa05952ab2f7"
+                "reference": "1903ab84171072b6bff8d98eb58d38b2c9aaf645"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-snappy/zipball/2c18a3602981bc6f25b32908cf8aaa05952ab2f7",
-                "reference": "2c18a3602981bc6f25b32908cf8aaa05952ab2f7",
+                "url": "https://api.github.com/repos/barryvdh/laravel-snappy/zipball/1903ab84171072b6bff8d98eb58d38b2c9aaf645",
+                "reference": "1903ab84171072b6bff8d98eb58d38b2c9aaf645",
                 "shasum": ""
             },
             "require": {
-                "illuminate/filesystem": "^6|^7|^8|^9",
-                "illuminate/support": "^6|^7|^8|^9",
+                "illuminate/filesystem": "^5.5|^6|^7|^8",
+                "illuminate/support": "^5.5|^6|^7|^8",
                 "knplabs/knp-snappy": "^1",
-                "php": ">=7.2"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^4|^5|^6|^7"
+                "php": ">=7"
             },
             "type": "library",
             "extra": {
@@ -97,7 +94,7 @@
                     ]
                 },
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "0.4-dev"
                 }
             },
             "autoload": {
@@ -126,19 +123,9 @@
             ],
             "support": {
                 "issues": "https://github.com/barryvdh/laravel-snappy/issues",
-                "source": "https://github.com/barryvdh/laravel-snappy/tree/v1.0.0"
+                "source": "https://github.com/barryvdh/laravel-snappy/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://fruitcake.nl",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/barryvdh",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-01-29T19:36:49+00:00"
+            "time": "2020-09-07T12:33:10+00:00"
         },
         {
             "name": "brick/math",
